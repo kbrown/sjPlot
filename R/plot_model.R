@@ -742,6 +742,9 @@ plot_model <- function(model,
       show.legend = show.legend,
       dot.size = dot.size,
       line.size = line.size,
+      vcov.fun = vcov.fun,
+      vcov.type = vcov.type,
+      vcov.args = vcov.args,
       ...
     )
 
