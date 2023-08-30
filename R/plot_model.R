@@ -725,7 +725,7 @@ plot_model <- function(model,
 
     # plot interaction terms ----
 
-    p <- (plot_type_int(
+    p <- plot_type_int(
       model = model,
       mdrt.values = mdrt.values,
       ci.lvl = ci.lvl,
