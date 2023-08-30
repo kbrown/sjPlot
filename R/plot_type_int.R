@@ -14,6 +14,9 @@ plot_type_int <- function(model,
                           show.legend,
                           dot.size,
                           line.size,
+                          vcov.fun,
+                          vcov.type,
+                          vcov.args,
                           ...) {
 
   # interaction terms are separated with ":"
@@ -105,6 +108,9 @@ plot_type_int <- function(model,
       ci.lvl = ci.lvl,
       type = pred.type,
       full.data = FALSE,
+      vcov.fun,
+      vcov.type,
+      vcov.args,
       ...
     )
 
